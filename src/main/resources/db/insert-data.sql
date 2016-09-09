@@ -9,6 +9,7 @@ INSERT INTO users VALUES (3, 'joel', 'joel@gmail.com',3);
 INSERT INTO users VALUES (4, 'lol', 'joel@gmail.com',4);
 
 INSERT INTO country VALUES (1, 'china');
+INSERT INTO country VALUES (2, 'australia');
 
 INSERT INTO app VALUES (1, 'cherno', 'title1');
 INSERT INTO app VALUES (2, 'sovetsk', 'title2');

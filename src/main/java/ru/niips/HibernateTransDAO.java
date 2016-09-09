@@ -27,7 +27,6 @@ public class HibernateTransDAO {
 
     public App getAppById(AppId id) {
         return sessionFactory.getCurrentSession().get(App.class, id);
-        
     }
     public DataFile getDataFileById(long id) {
         return sessionFactory.getCurrentSession().get(DataFile.class, id);
